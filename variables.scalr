@@ -10,3 +10,10 @@ variable "instance_type" {
     cloud = "ec2"
   }
 }
+
+variable "tags" {
+  policy = "cloud.tags"
+  conditions = {
+    cloud = "ec2"
+  }
+}
