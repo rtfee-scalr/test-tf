@@ -1,3 +1,5 @@
 variable "instance_type" {}
 
-variable "tags" {}
+variable "tags" {
+    type = "map"
+  }
