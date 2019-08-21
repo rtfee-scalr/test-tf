@@ -3,3 +3,10 @@ version = "v1"
 variable "level" {
   global_variable = "level"
 }
+
+variable "instance_name" {
+  policy = "cloud.instance.types"
+  conditions = {
+    cloud = "ec2"
+  }
+}
