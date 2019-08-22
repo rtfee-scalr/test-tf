@@ -4,13 +4,6 @@ variable "level" {
   global_variable = "level"
 }
 
-variable "instance_type" {
-  policy = "cloud.instance.types"
-  conditions = {
-    cloud = "ec2"
-  }
-}
-
 variable "tags" {
   policy = "cloud.tags"
   conditions = {
