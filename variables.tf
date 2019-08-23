@@ -1,4 +1,2 @@
 variable "region" {
 }
-
-variable "other" {}
