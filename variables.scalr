@@ -1,5 +1,5 @@
 version = "v1"
 
-variable "level" {
-  global_variable = "level"
+variable "billing_code" {
+  global_variable = "billing_code"
 }
