@@ -3,10 +3,3 @@ version = "v1"
 variable "level" {
   global_variable = "level"
 }
-
-variable "tags" {
-  policy = "cloud.tags"
-  conditions = {
-    cloud = "ec2"
-  }
-}
