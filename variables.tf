@@ -1,5 +1,3 @@
-variable "region" {
-  default = "us-east-1"
-}
+variable "region" {} 
 
 variable "billing_code" {}
