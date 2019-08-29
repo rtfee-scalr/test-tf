@@ -18,5 +18,5 @@ output "instance_public_ips" {
 }
 
 output "instance_hostname" { 
-  value = "${aws_instance.scalr.hostname}” 
+  value = "${aws_instance.scalr.hostname}"
 }
