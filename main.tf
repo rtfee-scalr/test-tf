@@ -12,7 +12,3 @@ resource "aws_instance" "scalr" {
   vpc_security_group_ids = ["sg-0880cfdc546b123ba"]
   key_name               = "ryan"
 }
-
-#output "instance_public_ips" {
-#  value = aws_instance.scalr.*.id
-#}
