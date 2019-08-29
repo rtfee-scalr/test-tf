@@ -13,7 +13,7 @@ resource "aws_instance" "scalr" {
   key_name               = "ryan"
 }
 
-output "instance_public_ips" {
+output "instance_id" {
   value = "${aws_instance.scalr.*.id}"
 }
 
