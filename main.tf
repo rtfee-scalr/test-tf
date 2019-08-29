@@ -13,6 +13,6 @@ resource "aws_instance" "scalr" {
   key_name               = "ryan"
 }
 
-output "instance_public_ips" {
-  value = aws_instance.scalr.*.id
-}
+#output "instance_public_ips" {
+#  value = aws_instance.scalr.*.id
+#}
