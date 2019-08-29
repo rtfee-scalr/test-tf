@@ -16,7 +16,3 @@ resource "aws_instance" "scalr" {
 output "instance_id" {
   value = "${aws_instance.scalr.*.id}"
 }
-
-output "instance_hostname" { 
-  value = "${aws_instance.scalr.*.hostname}"
-}
